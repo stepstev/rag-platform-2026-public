@@ -331,7 +331,7 @@ make up         # Démarrer la stack
 
 [![GitHub](https://img.shields.io/badge/GitHub-stepstev-181717?logo=github)](https://github.com/stepstev)
 
-### 🏆 Réalisé en Solo
+### 🏆 Réalisation 
 
 - 📐 Architecture N-tiers (5 couches)
 - 🐳 19 microservices orchestrés
@@ -340,13 +340,6 @@ make up         # Démarrer la stack
 - 📊 Stack observabilité production-grade
 - 📖 18 000 mots de documentation
 
-**De la vision au code. Du code à la valeur métier.**
-
-> *"Un bon Data Product Manager comprend ce qu'il pilote.  
-> Pas juste du reporting. Pas juste des roadmaps.  
-> **Concevoir. Coder. Délivrer.**"*
-
----
 
 ## 📚 Documentation Complète
 
