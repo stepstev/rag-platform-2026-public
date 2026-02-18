@@ -1,4 +1,4 @@
-# 🌊 OceanP RAG Platform - MVP Exploratoire
+# 🌊 OceanP RAG Platform 2026 - MVP Exploratoire
 
 > **Plateforme d'IA souveraine professionnelle**  
 > *MVP de test & observabilité - Exploitable en PME et Grandes Entreprises*
@@ -14,7 +14,7 @@
 
 **Problème :** Les entreprises ont des montagnes de données sensibles non exploitées.  
 **Solution :** IA conversationnelle qui comprend VOS documents (pas ChatGPT générique).  
-**Impact :** **630K€/an de gains** pour 15K€ d'infrastructure.
+
 
 ```mermaid
 graph LR
