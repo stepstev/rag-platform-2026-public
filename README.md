@@ -1,25 +1,26 @@
-# 🌊 OceanP RAG Platform 2026
+# 🌊 OceanP RAG Platform - MVP Exploratoire
 
 > **Plateforme d'IA souveraine professionnelle**  
-> *De la vision produit au code production. En solo.*
+> *MVP de test & observabilité - Exploitable en PME et Grandes Entreprises*
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Stack](https://img.shields.io/badge/19_microservices-Docker-2496ED?logo=docker)](TECH-STACK.md)
 [![AI](https://img.shields.io/badge/LLM-Ollama_+_RAG-orange)](ARCHITECTURE-OVERVIEW.md)
+[![Compliance](https://img.shields.io/badge/docs-RGPD_DORA_ISO-green)](COMPLIANCE-USE-CASES.md)
 
 ---
 
 ## 🎯 En 30 secondes
 
-**Problème :** Les entreprises ont des montagnes de données non exploitées.  
+**Problème :** Les entreprises ont des montagnes de données sensibles non exploitées.  
 **Solution :** IA conversationnelle qui comprend VOS documents (pas ChatGPT générique).  
 **Impact :** **630K€/an de gains** pour 15K€ d'infrastructure.
 
 ```mermaid
 graph LR
-    A[📄 Vos Documents] --> B[🔍 RAG Pipeline]
-    B --> C[🤖 LLM Local]
-    C --> D[💬 Réponses Précises]
+    A[📄 Vos Documents<br/>Sensibles] --> B[🔍 RAG Pipeline<br/>On-Premise]
+    B --> C[🤖 LLM Local<br/>Zero Cloud]
+    C --> D[💬 Réponses<br/>Conformes]
     
     style A fill:#e1f5ff
     style B fill:#fff3cd
@@ -27,7 +28,23 @@ graph LR
     style D fill:#d1ecf1
 ```
 
-**Différence clé :** Vos données restent chez vous. Zero OpenAI. Zero fuite.
+**Différences clés :**
+- ✅ Vos données restent chez vous (0% cloud)
+- ✅ Conformité RGPD, DORA, ISO, Secnum
+- ✅ MVP exploratoire adaptable production
+- ✅ Tests & observabilité intégrés
+
+---
+
+## 🏢 Exploitabilité par Type d'Organisation
+
+| Contexte | Setup | Coût | Use Cases | ROI |
+|----------|-------|------|-----------|-----|
+| **PME (10-250)** | 1 jour | 15K€ | RGPD + Knowledge Base | 8 mois |
+| **ETI (250-5000)** | 1 semaine | 55K€ | RGPD + DORA + ISO 27001 | 6 mois |
+| **Grand Compte (5000+)** | 1 mois | 250K€ | Suite complète conformité | 4 mois |
+
+**→ Voir [COMPLIANCE-USE-CASES.md](COMPLIANCE-USE-CASES.md) pour détails réglementaires**
 
 ---
 
@@ -335,18 +352,38 @@ make up         # Démarrer la stack
 
 | 📄 Document | 🎯 Contenu | ⏱️ Lecture |
 |------------|-----------|-----------|
+| **[Compliance & Use Cases](COMPLIANCE-USE-CASES.md)** | 🔐 RGPD, DORA, ISO, Secnum - Documents sensibles | 12 min |
 | **[Architecture](ARCHITECTURE-OVERVIEW.md)** | N-tiers détaillé, sécurité réseau | 15 min |
-| **[Use Cases](USE-CASES.md)** | 6 cas métier avec ROI détaillé | 12 min |
+| **[Use Cases Métier](USE-CASES.md)** | 6 cas métier avec ROI détaillé | 12 min |
 | **[Tech Stack](TECH-STACK.md)** | Choix techno + justifications | 10 min |
 | **[Security](SECURITY.md)** | Sécurité, RGPD, conformité | 8 min |
 | **[Vision](README-SHOWCASE.md)** | Philosophie & positionnement | 8 min |
+| **[Third-Party Licenses](THIRD-PARTY-NOTICES.md)** | Composants open-source et licences | 5 min |
 
 ---
 
-## 📄 Licence
+## 📄 Licence & Composants
 
-**MIT License** - Libre d'utilisation, même commerciale.  
-Voir [LICENSE](LICENSE) pour les détails.
+### MIT License (Ce Projet)
+**Cette licence s'applique uniquement à :**
+- ✅ Code d'orchestration (Docker Compose, scripts)
+- ✅ Code custom (APIs, frontend personnalisé)
+- ✅ Configuration (Caddy, Prometheus, etc.)
+- ✅ Documentation (tous les fichiers .md)
+
+**Elle NE s'applique PAS aux composants tiers** (React, Ollama, PostgreSQL, Grafana, etc.) qui conservent leurs licences originales.
+
+**→ Voir [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) pour la liste complète**
+
+### ⚠️ Avant Production
+**Ce MVP est un projet exploratoire de démonstration.**  
+Avant déploiement production :
+1. ✅ Audit juridique (RSSI, DPO)
+2. ✅ Validation conformité réglementaire
+3. ✅ Tests de sécurité
+4. ✅ Vérification compatibilité licences
+
+**→ Voir [COMPLIANCE-USE-CASES.md](COMPLIANCE-USE-CASES.md) pour détails RGPD/DORA/ISO**
 
 ---
 
