@@ -386,7 +386,7 @@ Avant déploiement production :
 **Vous voulez discuter d'architecture RAG ?**  
 **Vous cherchez un expert IA on-premise & solutions Open Source ?**
 
-📧 Voir mon profil GitHub pour me contacter
+📧 Voir mon profil GitHub pour me contacter   www.linkedin.com/in/stephane-celton 
 
 ---
 
