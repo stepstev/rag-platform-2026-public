@@ -71,19 +71,6 @@
 
 ---
 
-### 6. [PUBLICATION-GITHUB.md](PUBLICATION-GITHUB.md) — Guide Publication 🚀
-**Pour qui :** Vous ! (propriétaire du projet)  
-**Contenu :**
-- Méthodes de publication sur GitHub
-- Checklist sécurité pré-publication
-- Configuration repository
-- Promotion LinkedIn/Twitter/Reddit
-- Métriques de succès
-
-**Durée de lecture :** 15 minutes
-
----
-
 ## 🎓 Parcours de Lecture Recommandés
 
 ### Pour un **Recruteur Tech** (15 min)
