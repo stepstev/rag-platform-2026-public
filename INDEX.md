@@ -213,7 +213,6 @@ Contactez-moi pour accès privé (recruteurs, partenaires).
 ## 🙏 Remerciements
 
 Cette plateforme est le fruit de :
-- 15 ans d'expérience Data Product Management
 - Centaines d'heures de R&D personnelle
 - Contributions open source (Ollama, Qdrant, n8n, etc.)
 - Communauté DevOps/SRE/MLOps

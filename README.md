@@ -1,26 +1,45 @@
-# 🌊 OceanP RAG Platform 2026 - MVP Exploratoire
+# 🌊 OceanP RAG Platform - MVP Exploratoire Open Source
 
-> **Plateforme d'IA souveraine professionnelle**  
-> *MVP de test & observabilité - Exploitable en PME et Grandes Entreprises*
+> **Alternative souveraine aux solutions cloud non maîtrisées**  
+> *MVP d'outillages open source pour sortir de la dépendance cloud US*
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Stack](https://img.shields.io/badge/19_microservices-Docker-2496ED?logo=docker)](TECH-STACK.md)
 [![AI](https://img.shields.io/badge/LLM-Ollama_+_RAG-orange)](ARCHITECTURE-OVERVIEW.md)
 [![Compliance](https://img.shields.io/badge/docs-RGPD_DORA_ISO-green)](COMPLIANCE-USE-CASES.md)
+[![Sovereignty](https://img.shields.io/badge/100%25-On--Premise-blue)](ARCHITECTURE-OVERVIEW.md)
+
+---
+
+## 🇫🇷 Souveraineté Numérique : 100% Open Source
+
+**Ce MVP exploratoire démontre qu'il est possible de construire une stack IA complète avec des outils open source, offrant une alternative aux solutions cloud propriétaires.**
+
+### ✅ Architecture Ouverte & Maîtrisée
+
+| Besoin | Alternative Open Source | Avantages |
+|--------|-------------------------|------------|
+| **LLM** | **Ollama** (Mistral, Llama) | Modèles locaux, données maîtrisées |
+| **Vector DB** | **Qdrant** auto-hébergé | Infrastructure interne, RGPD natif |
+| **Observabilité** | **Prometheus + Grafana** | Monitoring complet sans dépendance externe |
+| **Base données** | **PostgreSQL + pgvector** | Solution éprouvée, hébergement flexible |
+| **Orchestration** | **Docker Compose** | Déploiement simplifié, portabilité totale |
+
+**Bénéfices :** Contrôle complet de l'infrastructure, réduction des coûts opérationnels, conformité réglementaire simplifiée
 
 ---
 
 ## 🎯 En 30 secondes
 
-**Problème :** Les entreprises ont des montagnes de données sensibles non exploitées.  
-**Solution :** IA conversationnelle qui comprend VOS documents (pas ChatGPT générique).  
+**Défi :** Exploiter l'IA générative tout en respectant la confidentialité des données  
+**Approche :** Stack IA complète on-premise, 100% open source  
 
 
 ```mermaid
 graph LR
-    A[📄 Vos Documents<br/>Sensibles] --> B[🔍 RAG Pipeline<br/>On-Premise]
-    B --> C[🤖 LLM Local<br/>Zero Cloud]
-    C --> D[💬 Réponses<br/>Conformes]
+    A[📄 Documents<br/>Métier] --> B[🔍 RAG Pipeline<br/>On-Premise]
+    B --> C[🤖 LLM Local<br/>Ollama]
+    C --> D[💬 Réponses<br/>Contextualisées]
     
     style A fill:#e1f5ff
     style B fill:#fff3cd
@@ -28,21 +47,23 @@ graph LR
     style D fill:#d1ecf1
 ```
 
-**Différences clés :**
-- ✅ Vos données restent chez vous (0% cloud)
-- ✅ Conformité RGPD, DORA, ISO, Secnum
-- ✅ MVP exploratoire adaptable production
-- ✅ Tests & observabilité intégrés
+**Bénéfices clés :**
+- 🇫🇷 **Données en France/EU** : Conformité RGPD native, données maîtrisées
+- 🔓 **Open Source 100%** : Flexibilité technique, indépendance des fournisseurs
+- 💰 **Optimisation budgétaire** : Réduction significative des coûts opérationnels
+- 🛡️ **Sécurité** : Infrastructure interne, contrôle des flux réseau
+- ⚖️ **Conformité** : DORA, HDS, Secnum Cloud compatible
 
 ---
 
 ## 🏢 Exploitabilité par Type d'Organisation
 
-| Contexte | Setup | Coût | Use Cases | ROI |
-|----------|-------|------|-----------|-----|
-| **PME (10-250)** | 1 jour | 15K€ | RGPD + Knowledge Base | 8 mois |
-| **ETI (250-5000)** | 1 semaine | 55K€ | RGPD + DORA + ISO 27001 | 6 mois |
-| **Grand Compte (5000+)** | 1 mois | 250K€ | Suite complète conformité | 4 mois |
+| Contexte | Setup | Coût | Use Cases | ROI | Souveraineté |
+|----------|-------|------|-----------|-----|--------------|
+| **PME (10-250)** | 1 jour | Setup léger | RGPD + Knowledge Base | Performance optimale | ✅ 100% |
+| **ETI (250-5000)** | 1 semaine | Setup modulaire | RGPD + DORA + ISO 27001 | Performance optimale | ✅ 100% |
+| **Grand Compte (5000+)** | 1 mois | Setup entreprise | Conformité complète | Performance optimale | ✅ 100% |
+| **Secteur Public** | 2 semaines | Setup réglementé | Secnum Cloud + RGS | Performance optimale | ✅ 100% |
 
 **→ Voir [COMPLIANCE-USE-CASES.md](COMPLIANCE-USE-CASES.md) pour détails réglementaires**
 
@@ -144,48 +165,42 @@ sequenceDiagram
 
 ---
 
-## 💰 ROI Business (6 Use Cases)
+## � Cas d'Usage Métier
 
 ```mermaid
 graph TD
     subgraph UC1[" "]
-        A1[📰 Veille Stratégique<br/>500h/an économisées]
-        A2[50K€/an]
+        A1[📰 Veille Stratégique<br/>Automatisation de la collecte]
     end
     
     subgraph UC2[" "]
-        B1[📚 Knowledge Base<br/>1200h/an économisées]
-        B2[120K€/an]
+        B1[📚 Knowledge Base<br/>Centralisation documentaire]
     end
     
     subgraph UC3[" "]
-        C1[📝 Génération Docs<br/>800h/an économisées]
-        C2[80K€/an]
+        C1[📝 Génération Documents<br/>Assistants IA métier]
     end
     
     subgraph UC4[" "]
-        D1[🚨 Alerting Intelligent<br/>300h/an économisées]
-        D2[150K€/an]
+        D1[🚨 Alerting Intelligent<br/>Monitoring proactif]
     end
     
     subgraph UC5[" "]
-        E1[🎓 Onboarding<br/>200h/an économisées]
-        E2[30K€/an]
+        E1[🎓 Onboarding<br/>Formation automatisée]
     end
     
     subgraph UC6[" "]
-        F1[😊 Sentiment Clients<br/>Churn -18%]
-        F2[200K€/an]
+        F1[😊 Analyse Sentiment<br/>Feedback clients]
     end
     
-    A1 --> ROI[💎 ROI TOTAL<br/>630K€/an]
+    A1 --> ROI[💎 Valeur Métier<br/>Multi-usages]
     B1 --> ROI
     C1 --> ROI
     D1 --> ROI
     E1 --> ROI
     F1 --> ROI
     
-    ROI --> RATIO[Ratio 42:1<br/>15K€ investis]
+    ROI --> IMPACT[Impact mesurable<br/>sur l'efficacité opérationnelle]
     
     style UC1 fill:#e3f2fd
     style UC2 fill:#e8f5e9
@@ -194,10 +209,10 @@ graph TD
     style UC5 fill:#f3e5f5
     style UC6 fill:#e0f2f1
     style ROI fill:#c8e6c9,stroke:#4caf50,stroke-width:3px
-    style RATIO fill:#ffecb3,stroke:#ff9800,stroke-width:3px
+    style IMPACT fill:#ffecb3,stroke:#ff9800,stroke-width:3px
 ```
 
-**Détails :** Voir [USE-CASES.md](USE-CASES.md) pour les calculs complets.
+**Détails :** Voir [USE-CASES.md](USE-CASES.md) pour les scénarios d'implémentation.
 
 ---
 
@@ -256,6 +271,48 @@ La plateforme collecte **18 métriques critiques** :
 | 🔒 **Incidents sécu** | 0 | 0 |
 
 **Dashboards Grafana** : 12 tableaux de bord métier + technique.
+
+### 🌐 Observabilité Étendue : Intégration Entreprise
+
+Bien que la stack soit 100% on-premise, **elle s'intègre parfaitement avec vos outils d'observabilité existants** :
+
+#### 📡 APIs REST Observabilité
+
+```mermaid
+graph LR
+    A[Stack On-Premise<br/>Prometheus + Grafana] --> B[API REST<br/>Stack Observability]
+    B --> C{Outils Entreprise}
+    C --> D[Power BI<br/>Reporting]
+    C --> E[Plateformes Cloud<br/>Datadog, Azure Monitor]
+    C --> F[SIEM<br/>Splunk, QRadar]
+    
+    style A fill:#e8f5e9
+    style B fill:#fff3e0
+    style C fill:#e3f2fd
+    style D fill:#fce4ec
+    style E fill:#f3e5f5
+    style F fill:#e0f2f1
+```
+
+**Cas d'usage :**
+
+| Intégration | Bénéfice | Cas d'usage |
+|-------------|----------|-------------|
+| **Power BI** | Reporting décisionnel | Dashboards exécutifs, KPIs métier consolidés |
+| **Azure Monitor / AWS CloudWatch** | Corrélation multi-cloud | Monitoring hybride (on-premise + cloud) |
+| **Datadog / Dynatrace** | Observabilité centralisée | Vue unifiée de tous les systèmes SI |
+| **Splunk / Elastic SIEM** | Audit sécurité | Conformité SOC2, ISO 27001, traces complètes |
+| **Tableau / Qlik** | BI avancée | Analyses prédictives sur métriques IA |
+
+**Endpoints disponibles** (API REST JSON) :
+- `/metrics/system` - CPU, RAM, disques, réseau
+- `/metrics/docker` - État containers, health checks
+- `/metrics/ai` - Performance LLM, latence RAG, précision
+- `/metrics/business` - Documents traités, requêtes/jour, coûts
+
+**Exemple Power BI** : Connecteur HTTP → Rafraîchissement automatique → Dashboards temps réel
+
+💡 **Philosophie** : Stack souveraine **ne signifie pas isolée**. Vous gardez le contrôle des données tout en exploitant vos investissements BI existants.
 
 ---
 
@@ -323,6 +380,67 @@ make up         # Démarrer la stack
 
 ---
 
+## 🎯 MVP Exploratoire : Objectifs & Garanties
+
+### 📐 Pourquoi ce projet ?
+
+**Démontrer la faisabilité d'une stack IA souveraine 100% open source**
+
+1. **Sortir de la dépendance cloud non souveraine**
+   - Réduire dépendance GAFAM (AWS, Azure, GCP)
+   - Éviter vendor lock-in solutions propriétaires
+   - Maîtrise totale données (RGPD, CLOUD Act)
+
+2. **Prouver viabilité alternative on-premise**
+   - Stack complète 19 microservices open source
+   - ROI supérieur cloud (42:1)
+   - Conformité réglementaire native
+
+3. **Démocratiser l'IA souveraine**
+   - Accessible PME (15K€ vs 150K€/an cloud)
+   - Documentation reproductible
+   - Code orchestration MIT
+
+### ⚖️ MVP vs Production
+
+| Aspect | MVP Exploratoire | Production |
+|--------|------------------|------------|
+| **Objectif** | Démonstration faisabilité | Service 24/7 |
+| **Données** | Jeux de test | Données réelles |
+| **Sécurité** | Architecture sécurisée | + Audits, certifications |
+| **Support** | Documentation | + Contrats, SLA |
+
+### ✅ Ce que le MVP GARANTIT
+
+- ✅ Architecture éprouvée (19 microservices fonctionnels)
+- ✅ Stack 100% open source (0 dépendance propriétaire)
+- ✅ Observabilité complète (Prometheus, Grafana, Loki)
+- ✅ Reproductibilité (`make install && make up`)
+- ✅ Conformité by design (RGPD, DORA, ISO)
+
+### ⚠️ Ce que le MVP NE GARANTIT PAS
+
+- ❌ Certifications officielles (ISO 27001, HDS)
+- ❌ Validation juridique (consultation DPO/RSSI obligatoire)
+- ❌ Support 24/7 production
+- ❌ Tests charge industriels
+
+### 🚀 Passage Production
+
+**Avant déploiement données sensibles :**
+1. ✅ Audit juridique (DPO, RSSI)
+2. ✅ Pentest sécurité (ANSSI si Secnum)
+3. ✅ Tests charge
+4. ✅ Plan reprise activité
+5. ✅ Formation utilisateurs
+
+**Investissement migration production :**
+- PME : Audit léger + Formation
+- ETI : Certifications + Pentests + Support
+- Grand Compte : Conformité complète + MCO industriel
+
+---
+
 ## 👨‍💻 Auteur
 
 **Stéphane CELTON**  
@@ -350,7 +468,6 @@ make up         # Démarrer la stack
 | **[Use Cases Métier](USE-CASES.md)** | 6 cas métier avec ROI détaillé | 12 min |
 | **[Tech Stack](TECH-STACK.md)** | Choix techno + justifications | 10 min |
 | **[Security](SECURITY.md)** | Sécurité, RGPD, conformité | 8 min |
-| **[Vision](README-SHOWCASE.md)** | Philosophie & positionnement | 8 min |
 | **[Third-Party Licenses](THIRD-PARTY-NOTICES.md)** | Composants open-source et licences | 5 min |
 
 ---
@@ -387,6 +504,21 @@ Avant déploiement production :
 **Vous cherchez un expert IA on-premise & solutions Open Source ?**
 
 📧 Voir mon profil GitHub pour me contacter   www.linkedin.com/in/stephane-celton 
+
+---
+
+## 🔗 Ressources Connexes
+
+**Articles & Publications :**
+
+- 📝 [RAG : Maîtrise, Gouvernance et Souveraineté](https://www.linkedin.com/posts/oceanphenix_rag-ma%C3%AEtrise-gouvernance-et-souverainet%C3%A9-activity-7429088839937204224-5hWc) — Vision sur l'IA souveraine et la gouvernance des données
+- 🚀 [Post LinkedIn - OceanPhenix](https://www.linkedin.com/feed/update/urn:li:activity:7418699746065825792) — Présentation du projet et réflexions architecture
+
+**Plateformes & Contenus :**
+
+- 🌐 [OceanPhenix](https://oceanphenix.fr/) — Site officiel du projet
+- 👤 [Portfolio Stéphane Celton](https://stephanecelton.oceanphenix.fr/) — Réalisations et compétences
+- 🎥 [YouTube - Discovery IT DATA](https://www.youtube.com/@DiscoveryITDATA) — Tutoriels, démos et retours d'expérience
 
 ---
 
