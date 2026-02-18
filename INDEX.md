@@ -178,7 +178,6 @@ Par souci de **sécurité** et de **protection de l'avantage compétitif**, les 
 
 ## 📞 Contact & Réseaux
 
-- **LinkedIn :** [Stéphane Tissot](https://www.linkedin.com/in/stephanetissot/)
 - **GitHub :** [stepstev](https://github.com/stepstev)
 - **Email :** [Votre email professionnel]
 - **Portfolio :** [Si applicable]

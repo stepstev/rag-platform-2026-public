@@ -210,8 +210,7 @@ Les détails d'implémentation suivants ne sont **PAS** exposés :
 
 ## 📞 Contact
 
-**Stéphane Tissot** - Data Product Manager  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/stephanetissot/)  
+**Stéphane CELTON** - Data Product Manager BI  
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/stepstev)
 
 **Pour :**
@@ -242,7 +241,7 @@ mv README.md README-ORIGINAL.md
 cat > LICENSE << 'EOF'
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-Copyright (c) 2026 Stéphane Tissot
+Copyright (c) 2026 Stéphane CELTON
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 
 4.0 International License.

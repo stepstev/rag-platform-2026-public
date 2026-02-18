@@ -111,8 +111,8 @@ Les détails d'implémentation sensibles ne sont **PAS** exposés.
 
 ## 📞 Contact
 
-**Stéphane Tissot** - Data Product Manager  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/stephanetissot/)
+**Stéphane CELTON** - Data Product Manager BI  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/stepstev)
 
 ---
 
@@ -136,7 +136,7 @@ EOF
 # Créer LICENSE
 cat > LICENSE << 'EOF'
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-Copyright (c) 2026 Stéphane Tissot
+Copyright (c) 2026 Stéphane CELTON
 
 Full license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 EOF
